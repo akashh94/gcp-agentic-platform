@@ -1,0 +1,27 @@
+node_modules/
+dist/
+build/
+coverage/
+
+.nx/cache/
+.nx/workspace-data/
+
+.env
+.env.*
+!.env.example
+
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

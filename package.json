@@ -1,0 +1,22 @@
+{
+  "name": "gcp-agentic-platform",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@12.11.2",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "graph": "nx graph",
+    "build": "nx run-many -t build",
+    "test": "nx run-many -t test",
+    "lint": "nx run-many -t lint",
+    "typecheck": "nx run-many -t typecheck"
+  },
+  "devDependencies": {
+    "@nx/js": "23.3.0",
+    "@nx/react": "23.3.0",
+    "nx": "23.3.0",
+    "typescript": "5.9.3"
+  }
+}
